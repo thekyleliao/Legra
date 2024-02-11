@@ -1,0 +1,43 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: 'Judson', serif !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Archivo Black', sans-serif !important;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  padding: 20px;
+}
+
+p {
+  text-align: center;
+}
+
+a {
+  text-align: center;
+}
+
+nav {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.navItem {
+  padding-left: 10px;
+}

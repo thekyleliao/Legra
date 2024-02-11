@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Hack Club Time Capsule</title>
+  <link rel='stylesheet' href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Archivo+Black|Judson:400,700" rel="stylesheet">
+</head>
+
+<body>
+  <br><br>
+  <a href="https://hackclub.com/"><img
+      style="position: absolute; margin-top: 10px; left: 0px; border: 0; width: 256px; z-index: 999;"
+      src="https://assets.hackclub.com/banners/2024.svg" alt="Hack Club" /></a>
+
+  <div style="text-align:center">
+    <img src="/images/title.png">
+  </div>
+
+  <p>A toy box for your Hack Club with LEGOs and stories!</p>
+  <nav>
+    <a href="index.html" class=navItem>Home</a>
+    <a href="/future-self-letter/letter.html" class=navItem>Write a Letter to Yourself</a>
+  </nav>
+  <br><br>
+
+  <!-- LEGO baseplate -->
+  <div class="canvas">
+    <canvas id="brick_maze" width="1000px" height="1000px"></canvas>
+  </div>
+
+
+  <!-- HTML Structure for the Slideshow -->
+  <!-- Start of Slide 1 -->
+  <div id="slideshow">
+    <div class="slides">
+      <div class="grid-container">
+        <div class="grid-item">
+          <h3>25% American Polaroid</h3>
+          <!-- Image on left of the slideshow -->
+          <img src="images/polaroid.jpg" width="200px" height="200px">
+          <p>Circa 2024 Summit!</p>
+        </div>
+        <div class="grid-item">
+          <!-- script.js modifies the LEGO on the right -->
+          <canvas id="slide1" width="1500px" height="1500px"></canvas>
+        </div>
+      </div>
+    </div>
+    <!-- Start of Slide 2 -->
+    <div class="slides">
+      <div class="grid-container">
+        <div class="grid-item">
+          <h3>Cats with no hats</h3>
+          <img src="images/cat.jpg" width="200px" height="200px">
+          <p>This is not a hackathon cat.</p>
+        </div>
+        <div class="grid-item">
+          <canvas id="slide2" width="1500px" height="1500px"></canvas>
+        </div>
+      </div>
+    </div>
+    <!-- End of Slide 2 -->
+    
+    <!-- Start of Slide 3-->
+    <div class="slides">
+      <div class="grid-container">
+        <div class="grid-item">
+          <h3>Golden Gate, No Hate</h3>
+          <img src="images/golden_gate.jpg" width="200px" height="200px">
+          <p>12 Miles Bike Ride, a bridge not too far.</p>
+        </div>
+        <div class="grid-item">
+          <canvas id="slide3" width="1500px" height="1500px"></canvas>
+        </div>
+      </div>
+    </div>
+    <!-- End of Slide 3 -->
+    
+    <!-- Start of Slide 4-->
+    <div class="slides">
+      <div class="grid-container">
+        <div class="grid-item">
+          <h3>Room Time, Programming </h3>
+          <img src="images/kyle.jpg" width="200px" height="200px">
+          <p>This is a sample text for Slide 2.</p>
+        </div>
+        <div class="grid-item">
+          <canvas id="slide4" width="1500px" height="1500px"></canvas>
+        </div>
+      </div>
+    </div>
+    <!-- End of Slide 4 -->
+    
+    <!-- Start of Slide 5-->
+    <div class="slides">
+      <div class="grid-container">
+        <div class="grid-item">
+          <h3>Slide 5</h3>
+          <img src="images/sahib.jpg" width="200px" height="200px">
+          <p>This is a sample text for Slide 2.</p>
+        </div>
+        <div class="grid-item">
+          <canvas id="slide5" width="1500px" height="1500px"></canvas>
+        </div>
+      </div>
+    </div>
+    <!-- End of Slide 5 -->
+    
+    <!-- Add more slide elements as needed -->
+  </div>
+  </div>
+  
+  <!-- End of Slideshow HTML Structure -->
+
+  <script src='https://unpkg.com/legra?browser'></script>
+  <script type="module" src="./scripts/script.js"></script>
+  <script type="module" src="./scripts/slideshow.js"></script>
+
+</body>
+
+</html>
